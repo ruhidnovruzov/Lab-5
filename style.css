@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    width: 350px;
+    height: 1000px;
+    background-color: #F5F5F5;
+    overflow: scroll;
+    overflow-x: hidden;
+    position: fixed;
+}
+
+.navbar h1 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 40px;
+}
+
+.navbar span {
+    font-size: 40px;
+    color: rgb(188, 188, 188);
+}
+
+.links {
+    margin-top: 100px;
+}
+
+.links p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.links a {
+    color: rgb(188, 188, 188);
+    transition: all 0.3s;
+}
+
+.links a:hover {
+    color: rgb(0, 0, 0);
+    transition: all 0.2s;
+    font-size: 20px;
+}
+
+.links .home {
+    border-bottom: 2px solid rgb(0, 0, 0);
+    color: black;
+}
+
+.ft {
+    margin-top: 80px;
+}
+
+.ft p {
+    text-align: center;
+    font-weight: 300;
+    font-size: 16px;
+    color: rgb(188, 188, 188);
+}
+
+.ft a {
+    color: #F0642C;
+}
+
+.social {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.social a {
+    color: rgb(80, 80, 80);
+    padding: 8px;
+    transition: all 0.3s;
+}
+
+.social a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.main {
+    margin-left: 350px;
+}
+
+.avatar {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hello p {
+    text-align: center;
+    font-size: 25px;
+    color: rgb(188, 188, 188);
+    font-weight: 300;
+}
+
+.hello h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+.text {
+    font-size: 20px !important;
+    font-weight: 400 !important;
+    margin-top: 20px;
+}
+
+.more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.more a {
+    color: rgb(188, 188, 188);
+    border-bottom: 1px solid rgb(188, 188, 188);
+    font-weight: 300;
+    transition: all 0.3s;
+}
+
+.more a:hover {
+    color: rgb(155, 155, 155);
+}
+
+.cal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    height: 500px;
+}
+
+.calculator {
+    margin: 0 auto;
+    position: absolute;
+    width: 300px;
+    height: 410px;
+    padding: 10px;
+    padding-left: 2px;
+    border: 1px solid #ccc;
+    background-color: black;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 5px;
+}
+
+input[type="text"] {
+    width: 100%;
+    margin-bottom: 10px;
+    height: 50px;
+    background-color: black;
+    border-style: none;
+    color: white;
+    font-size: 30px;
+    border-bottom: 1px solid white;
+}
+
+button {
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+    font-size: 25px;
+    clip-path: circle();
+    border-style: none;
+    color: white;
+}
+
+.symb {
+    background-color: #F69906;
+    transition: all 0.3s;
+}
+
+.digit {
+    background-color: #2F2F2F;
+    transition: all 0.3s;
+}
+
+.symb:hover {
+    background-color: #d67900;
+}
+
+.digit:hover {
+    background-color: #151515;
+}
